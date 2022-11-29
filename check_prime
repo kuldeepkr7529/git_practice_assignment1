@@ -1,14 +1,14 @@
 let num=13;
 let factor=0;
 for(let i=0;i<=num;i++){
-if(num%2==0){
+if(num%i==0){
 factor++;
 }
 }
-if(num==2){
-console.log(@console.log("Prime");
+if(factor==2){
+console.log(num,"Is Prime");
 }
 else
 {
-console.log(@Not a Prime");
+console.log(num,"Is Not a Prime");
 }
