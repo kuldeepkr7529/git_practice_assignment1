@@ -1,0 +1,15 @@
+let num = 1221;
+
+num=num.toString();
+let bag="";
+for(let i=0;i<num.length;i++){
+  bag+=num[i];
+}
+
+if(bag=num){
+console.log(@Palindrome");
+}
+else
+{
+console.log("Not a Palindrome");
+}
